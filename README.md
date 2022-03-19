@@ -10,19 +10,17 @@
                     </strong> or <br/> <br/>
                     <strong>
                         &lt; http-equiv="refresh" content="300;url=https://www.google.com" /&gt;
-                    </strong>   <br/> <br/>
-                    instead of the below
+                    </strong>   <br/> <br/> 
                 </p>
-                <p>
-                    <strong>
-                        function autoRefreshPage()
-                            {
-                                window.location = window.location.href;
-                            }
+                <code>
+                
+                    function autoRefreshPage()
+                        {
+                            window.location = window.location.href;
+                        }
 
-                        setInterval('autoRefreshPage()', 600000);
-                    </strong>
-                </p>
+                    setInterval('autoRefreshPage()', 600000); 
+                </code> 
             </li>
             <li>
                 <p>Internet Connection Notification</p>
