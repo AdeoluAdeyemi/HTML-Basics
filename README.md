@@ -12,15 +12,6 @@
                         &lt; http-equiv="refresh" content="300;url=https://www.google.com" /&gt;
                     </strong>   <br/> <br/> 
                 </p>
-                <code>
-                
-                    function autoRefreshPage()
-                        {
-                            window.location = window.location.href;
-                        }
-
-                    setInterval('autoRefreshPage()', 600000); 
-                </code> 
             </li>
             <li>
                 <p>Internet Connection Notification</p>
