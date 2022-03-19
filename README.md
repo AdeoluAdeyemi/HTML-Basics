@@ -12,10 +12,19 @@
                         &lt; http-equiv="refresh" content="300;url=https://www.google.com" /&gt;
                     </strong>   <br/> <br/> 
                 </p>
+                <p>                
+                    <code>
+                        function autoRefreshPage()
+                            {
+                                window.location = window.location.href;
+                            }
+                        setInterval('autoRefreshPage()', 600000); 
+                    </code> 
+                </p>
             </li>
             <li>
                 <p>Internet Connection Notification</p>
-                <p>Imagine being able to notify user of internet disconneciton from you application GUI using only markup attributes? It\'s this simple.</p>
+                <p>Imagine being able to notify user of internet disconneciton from you application GUI using only markup attributes? It's this simple.</p>
                 <strong>
                     &lt;body onoffline="alert('Internet connection lost! Check your network!');" ononline="alert('You are back online!');"&gt;               
                 </strong> 
