@@ -10,7 +10,7 @@
                     </strong> or <br/> <br/>
                     <strong>
                         &lt; http-equiv="refresh" content="300;url=https://www.google.com" /&gt;
-                    </strong>   <br/> <br/> 
+                    </strong> 
                 </p>
                 <p>                
                     <code>
